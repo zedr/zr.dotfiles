@@ -172,7 +172,7 @@ hi Identifier      guifg=#efdcbc
 hi IncSearch       guibg=#f8f893 guifg=#385f38
 hi Keyword         guifg=#f0dfaf gui=bold
 hi Label           guifg=#dfcfaf gui=underline
-hi LineNr          guifg=#9fafaf guibg=#262626
+hi LineNr          guifg=#ffffff guibg=#262626
 hi Macro           guifg=#ffcfaf gui=bold
 hi ModeMsg         guifg=#ffcfaf gui=none
 hi MoreMsg         guifg=#ffffff gui=bold
@@ -235,7 +235,7 @@ if &t_Co > 255
     hi IncSearch       ctermbg=228   ctermfg=238
     hi Keyword         ctermfg=223   cterm=bold
     hi Label           ctermfg=187   cterm=underline
-    hi LineNr          ctermfg=248   ctermbg=235
+    hi LineNr          ctermfg=000   ctermbg=235
     hi Macro           ctermfg=223   cterm=bold
     hi ModeMsg         ctermfg=223   cterm=none
     hi MoreMsg         ctermfg=15    cterm=bold
@@ -303,7 +303,7 @@ if &t_Co > 255
         hi foldcolumn      ctermbg=238
         hi folded          ctermbg=238
         hi incsearch       ctermbg=228
-        hi linenr          ctermbg=238
+        hi linenr          ctermbg=000
         hi search          ctermbg=238
         hi statement       ctermbg=237
         hi statusline      ctermbg=144

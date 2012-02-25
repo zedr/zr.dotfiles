@@ -21,8 +21,9 @@ set foldmethod=indent
 set foldlevel=99
 
 " Color theme
+syntax enable
 set background=dark
-colorscheme zenburn
+colorscheme zr
 
 "Higlight current line only in insert mode
 "autocmd InsertLeave * set nocursorline
@@ -52,7 +53,6 @@ set statusline+=\ %P    "percent through file
 set statusline+=%{fugitive#statusline()} "Fugitive
 
 " Syntax
-syntax on
 filetype on
 filetype plugin indent on
 
@@ -138,6 +138,7 @@ set incsearch
 " Nuke annoying prompts
 set shortmess=atI
 set visualbell
+set novb
 
 " Visit modeline
 set modeline                " Allow vim options to be embedded in files;
